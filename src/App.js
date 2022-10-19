@@ -4,7 +4,9 @@ import MobileNav from "./components/MobileNav/MobileNav";
 function App() {
   return (
     <div className="App">
-      <MobileNav />
+      <div className="Wrapper">
+        <MobileNav />
+      </div>
     </div>
   );
 }
