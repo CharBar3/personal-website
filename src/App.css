@@ -26,8 +26,3 @@
 .App p {
   font-family: var(--body-font);
 }
-
-.Wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
-}

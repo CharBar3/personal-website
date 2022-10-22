@@ -1,14 +1,15 @@
 import "./App.css";
-import MobileNav from "./components/MobileNav/MobileNav";
-import Welcome from "./components/Welcome/Welcome";
+import SectionHeader from "./components/SectionHeader/SectionHeader";
+import About from "./sections/About/About";
+import MobileNav from "./sections/MobileNav/MobileNav";
+import Welcome from "./sections/Welcome/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <div className="Wrapper">
-        <MobileNav />
-        <Welcome />
-      </div>
+      <MobileNav />
+      <Welcome />
+      <About />
     </div>
   );
 }
