@@ -1,15 +1,29 @@
+@font-face {
+  font-family: "Archivo Black Regular";
+  src: url("./fonts/ArchivoBlack-Regular.ttf") format("TrueType");
+}
+
 :root {
   --primary-color: rgb(213, 255, 64);
   --secondary-color: rgb(23, 23, 23);
 
   --heading-color: rgb(194, 194, 194);
   --body-color: rgb(69, 69, 69);
+
+  --heading-font: "Archivo Black Regular", sans-serif;
+  --body-font: "Archivo", sans-serif;
 }
 
 .App {
+  font-family: var(--heading-font);
+
   background-color: var(--primary-color);
 
   width: 100%;
+}
+
+.App p {
+  font-family: var(--body-font);
 }
 
 .Wrapper {
