@@ -1,35 +1,37 @@
 .Welcome {
-  display: flex;
-  flex-direction: column;
 }
+
 .Welcome h1 {
-  font-size: 50px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding-top: 15px;
 }
 
-.Welcome button {
-  font-family: var(--button-font);
-  font-size: x-large;
-
-  background-color: black;
-  color: var(--primary-color);
-
-  border: none;
-  border-radius: 25px;
-
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  width: 100%;
-  max-width: 300px;
-
+.WelcomeTitle {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
+  flex-wrap: wrap;
 }
-.Welcome button svg {
-  width: 32px;
-  height: 32px;
-  margin-left: 10px;
+.WelcomeTitle h3 {
+  margin: 0px;
+}
+.WelcomeTitle svg {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.WelcomeButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.WelcomeButtons button {
+  background: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: var(--button-text-size);
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.WelcomeButtons button svg {
+  margin-right: 10px;
 }

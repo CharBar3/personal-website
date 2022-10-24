@@ -1,19 +1,35 @@
 import "./Welcome.css";
-import { ReactComponent as ArrowIcon } from "../../Icons/arrow-up-right.svg";
+import { ReactComponent as ArrowRightIcon } from "../../Icons/arrow-right.svg";
+import { ReactComponent as LayersIcon } from "../../Icons/layers.svg";
+import { ReactComponent as DownloadIcon } from "../../Icons/download.svg";
 
 const Welcome = () => {
   return (
     <div className="Welcome">
-      <h1>CHARLES BARTLETT</h1>
-      <h3>Full Stack Software Engineer</h3>
+      <h1>
+        Charles
+        <br /> Bartlett
+      </h1>
+      <div className="WelcomeTitle">
+        <h3>Full Stack</h3>
+        <LayersIcon />
+        <h3>Software Engineer</h3>
+      </div>
+
       <p>
-        Hello! I'm a full stack MERN developer with a focus on Frontend. I'm
-        currently intersted in full time positions working with React.js!
+        I empower teams to beat deadlines and exceed expectations. Currently,
+        I’m interested in Frontend or Full Stack roles working with React.js.
+        Lets talk about how I can make a difference in your workforce!
       </p>
-      <button>
-        Lets Talk
-        <ArrowIcon />
-      </button>
+      <div className="WelcomeButtons">
+        <button>
+          <ArrowRightIcon />
+          Lets Talk
+        </button>
+        <button>
+          <DownloadIcon /> Resume
+        </button>
+      </div>
     </div>
   );
 };
