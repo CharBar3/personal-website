@@ -8,19 +8,55 @@
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
 
-.Connect div {
   display: flex;
   flex-direction: column;
+  /* padding-left: 30px; */
+  padding-top: 200px;
 }
+
+.Connect h3 {
+  margin: 0px;
+}
+
 #closeIcon {
   position: relative;
-  left: 200px;
-  top: 25px;
-  color: white;
+  top: -180px;
+  left: 260px;
+  color: var(--heading-color);
+  width: 40px;
+  height: 40px;
 }
+
 .Connect a {
   display: flex;
-  justify-content: center;
+  text-decoration: none;
+  color: var(--heading-color);
+  align-items: center;
+}
+
+.Connect a svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .Connect a svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .Connect a svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Connect a svg {
+    width: 45px;
+    height: 45px;
+  }
 }

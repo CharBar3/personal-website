@@ -14,7 +14,7 @@ const Welcome = () => {
     if (status === "open") {
       connect[0].style.width = "0px";
     } else if (status === "closed") {
-      connect[0].style.width = "250px";
+      connect[0].style.width = "320px";
     }
   };
 
