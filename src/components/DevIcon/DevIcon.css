@@ -1,0 +1,39 @@
+.DevIcon {
+  display: flex;
+}
+
+.DevIcon svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.DevIcon span {
+  display: flex;
+  align-items: center;
+  color: var(--body-color);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .DevIcon svg {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .DevIcon {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .DevIcon svg {
+    width: 130px;
+    height: 130px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}

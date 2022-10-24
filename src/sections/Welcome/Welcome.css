@@ -1,6 +1,5 @@
 .Welcome {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px var(--section-padding);
 }
 
 .Welcome h1 {

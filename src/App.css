@@ -1,24 +1,19 @@
 :root {
   --primary-color: rgb(213, 255, 64);
   --secondary-color: rgb(23, 23, 23);
-
   --heading-color: rgb(194, 194, 194);
   --body-color: rgb(79, 79, 79);
 
-  --heading-font: "Inter", sans-serif;
-  --body-font: "Inter", sans-serif;
-  --button-font: "Inter", sans-serif;
-
   --button-text-size: 16pt;
+
+  --section-padding: 15px;
 }
 
 .App {
-  /* font-family: var(--heading-font); */
   font-family: "Inter", sans-serif;
-
   background-color: var(--primary-color);
-
   width: 100%;
+  max-width: 1400px;
 }
 
 .App h1 {
@@ -41,6 +36,7 @@
 @media only screen and (min-width: 600px) {
   :root {
     --button-text-size: 20pt;
+    --section-padding: 25px;
   }
   .App h1 {
     font-size: 48pt;
@@ -58,6 +54,7 @@
 @media only screen and (min-width: 900px) {
   :root {
     --button-text-size: 24pt;
+    --section-padding: 35px;
   }
   .App h1 {
     font-size: 64pt;
@@ -75,6 +72,7 @@
 @media only screen and (min-width: 1200px) {
   :root {
     --button-text-size: 32pt;
+    --section-padding: 45px;
   }
   .App h1 {
     font-size: 96pt;
