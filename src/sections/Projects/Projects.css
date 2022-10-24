@@ -9,6 +9,7 @@
 .Projects h2 {
   margin: 0px;
   padding-top: 15px;
+  padding-bottom: 15px;
   background-color: var(--secondary-color);
   color: var(--heading-color);
 }

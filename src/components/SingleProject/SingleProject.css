@@ -1,0 +1,62 @@
+.SingleProject {
+  background-color: var(--secondary-color);
+  padding: 0px var(--section-padding);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--body-color);
+}
+.SingleProject:last-child {
+  border-bottom: 1px solid var(--body-color);
+}
+
+.SingleProject h3 {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+}
+
+.SingleProject h3:hover::after {
+  content: ".";
+  color: var(--primary-color);
+}
+
+.SingleProject-Icons {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 5px;
+}
+
+.SingleProject svg {
+  color: var(--heading-color);
+  width: 25px;
+  height: 25px;
+}
+.SingleProject svg:last-child {
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .SingleProject svg {
+    color: var(--heading-color);
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .SingleProject svg {
+    color: var(--heading-color);
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .SingleProject svg {
+    color: var(--heading-color);
+    width: 40px;
+    height: 40px;
+  }
+}

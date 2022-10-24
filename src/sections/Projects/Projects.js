@@ -6,6 +6,8 @@ const Projects = () => {
     <div className="Projects">
       <h2>PROJECTS</h2>
       <SingleProject title="Project One" />
+      <SingleProject title="Project One" />
+      <SingleProject title="Project One" />
     </div>
   );
 };

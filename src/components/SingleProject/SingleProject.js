@@ -4,9 +4,9 @@ import { ReactComponent as ExternalLinkIcon } from "../../Icons/external-link.sv
 
 const SingleProject = ({ title, website, github }) => {
   return (
-    <div>
+    <div className="SingleProject">
       <h3>{title}</h3>
-      <div>
+      <div className="SingleProject-Icons">
         <GithubIcon />
         <ExternalLinkIcon />
       </div>
