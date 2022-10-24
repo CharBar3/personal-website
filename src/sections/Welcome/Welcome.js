@@ -26,9 +26,14 @@ const Welcome = () => {
           <ArrowRightIcon />
           Lets Talk
         </button>
-        <button>
-          <DownloadIcon /> Resume
-        </button>
+        <a
+          href="https://docs.google.com/document/d/1Be1ijsi-s8U6ZFeFNZ5qmY8T5pW4o3MbQVMQRCiUrfg/edit?usp=sharing"
+          target="_blank"
+        >
+          <button>
+            <DownloadIcon /> Resume
+          </button>
+        </a>
       </div>
     </div>
   );
