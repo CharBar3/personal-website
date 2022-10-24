@@ -3,9 +3,24 @@ import { ReactComponent as ArrowRightIcon } from "../../Icons/arrow-right.svg";
 import { ReactComponent as LayersIcon } from "../../Icons/layers.svg";
 import { ReactComponent as DownloadIcon } from "../../Icons/download.svg";
 
+import Connect from "../../components/Connect/Connect";
+
 const Welcome = () => {
+  const openCloseConnect = (status) => {
+    const connect = document.getElementsByClassName("Connect");
+
+    console.log(status);
+
+    if (status === "open") {
+      connect[0].style.width = "0px";
+    } else if (status === "closed") {
+      connect[0].style.width = "250px";
+    }
+  };
+
   return (
     <div className="Welcome">
+      <Connect openCloseConnect={openCloseConnect} />
       <h1>
         Charles
         <br /> Bartlett
@@ -22,7 +37,7 @@ const Welcome = () => {
         Lets talk about how I can make a difference in your workforce!
       </p>
       <div className="WelcomeButtons">
-        <button>
+        <button onClick={() => openCloseConnect("closed")}>
           <ArrowRightIcon />
           Lets Talk
         </button>

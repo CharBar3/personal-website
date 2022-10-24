@@ -5,6 +5,7 @@ import SectionHeader from "./components/SectionHeader/SectionHeader";
 import Skills from "./sections/Skills/Skills";
 import Projects from "./sections/Projects/Projects";
 import Education from "./sections/Education/Education";
+import Connect from "./components/Connect/Connect";
 
 function App() {
   return (
