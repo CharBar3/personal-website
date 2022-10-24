@@ -11,13 +11,14 @@
 .WelcomeTitle {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .WelcomeTitle h3 {
   margin: 0px;
 }
 .WelcomeTitle svg {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .WelcomeButtons {
@@ -36,4 +37,23 @@
 }
 .WelcomeButtons button svg {
   margin-right: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .WelcomeTitle svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .WelcomeTitle svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .WelcomeTitle svg {
+    width: 40px;
+    height: 40px;
+  }
 }
