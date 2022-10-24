@@ -12,7 +12,7 @@
 .App {
   font-family: "Inter", sans-serif;
   background-color: var(--primary-color);
-  width: 100%;
+  width: 100vw;
   max-width: 1400px;
   border-left: 1px solid var(--body-color);
   border-right: 1px solid var(--body-color);
