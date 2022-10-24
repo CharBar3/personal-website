@@ -1,6 +1,6 @@
 .SectionHeader {
   background-color: black;
-  width: 200%;
+  width: 500%;
 
   display: flex;
   align-items: center;
@@ -8,18 +8,19 @@
 }
 
 .SectionHeader div {
-  margin-left: 20px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
   color: var(--primary-color);
   overflow-x: hidden;
 }
+
 .SectionHeader div h1 {
   font-size: 24pt;
 }
 
 .SectionHeader svg {
-  margin-left: 20px;
+  margin-left: 10px;
   width: 40px;
   height: 40px;
 }

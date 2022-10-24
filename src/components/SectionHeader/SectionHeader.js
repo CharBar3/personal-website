@@ -1,16 +1,19 @@
 import "./SectionHeader.css";
 import { ReactComponent as DownArrowIcon } from "../../Icons/arrow-down.svg";
-import { useEffect } from "react";
 
 const SectionHeader = ({ title }) => {
-  return (
-    <div className="SectionHeader">
-      <div>
+  const titles = [];
+
+  for (let index = 0; index < 4; index++) {
+    titles.push(
+      <div key={index}>
         <h1>{title}</h1>
         <DownArrowIcon />
       </div>
-    </div>
-  );
+    );
+  }
+
+  return <div className="SectionHeader">{titles}</div>;
 };
 
 export default SectionHeader;
