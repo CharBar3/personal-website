@@ -1,6 +1,7 @@
 .SectionHeader {
   background-color: black;
-  width: 500%;
+  height: 100%;
+  overflow-x: hidden;
 
   display: flex;
   align-items: center;
@@ -9,10 +10,10 @@
 
 .SectionHeader div {
   padding-left: 10px;
+  min-width: 325px;
   display: flex;
   align-items: center;
   color: var(--primary-color);
-  overflow-x: hidden;
 }
 
 .SectionHeader div h1 {
