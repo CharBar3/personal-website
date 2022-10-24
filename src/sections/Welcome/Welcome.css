@@ -1,4 +1,6 @@
 .Welcome {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .Welcome h1 {
@@ -22,6 +24,7 @@
 .WelcomeButtons {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 .WelcomeButtons button {
   background: none;

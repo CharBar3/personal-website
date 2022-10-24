@@ -1,7 +1,7 @@
 .SectionHeader {
-  height: 50px;
   background-color: black;
-  width: 100%;
+  width: 200%;
+
   display: flex;
   align-items: center;
   color: var(--primary-color);
@@ -12,6 +12,10 @@
   display: flex;
   align-items: center;
   color: var(--primary-color);
+  overflow-x: hidden;
+}
+.SectionHeader div h1 {
+  font-size: 24pt;
 }
 
 .SectionHeader svg {
