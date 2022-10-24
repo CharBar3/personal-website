@@ -37,3 +37,55 @@
 .App p {
   font-size: 14pt;
 }
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --button-text-size: 20pt;
+  }
+  .App h1 {
+    font-size: 48pt;
+  }
+  .App h2 {
+    font-size: 32pt;
+  }
+  .App h3 {
+    font-size: 24pt;
+  }
+  .App p {
+    font-size: 15pt;
+  }
+}
+@media only screen and (min-width: 900px) {
+  :root {
+    --button-text-size: 24pt;
+  }
+  .App h1 {
+    font-size: 64pt;
+  }
+  .App h2 {
+    font-size: 36pt;
+  }
+  .App h3 {
+    font-size: 32pt;
+  }
+  .App p {
+    font-size: 16pt;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  :root {
+    --button-text-size: 32pt;
+  }
+  .App h1 {
+    font-size: 96pt;
+  }
+  .App h2 {
+    font-size: 40pt;
+  }
+  .App h3 {
+    font-size: 36pt;
+  }
+  .App p {
+    font-size: 20pt;
+  }
+}
