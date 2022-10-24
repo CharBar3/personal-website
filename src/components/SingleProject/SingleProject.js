@@ -7,8 +7,12 @@ const SingleProject = ({ title, website, github }) => {
     <div className="SingleProject">
       <h3>{title}</h3>
       <div className="SingleProject-Icons">
-        <GithubIcon />
-        <ExternalLinkIcon />
+        <a href={github} target="_blank">
+          <GithubIcon />
+        </a>
+        <a href={website} target="_blank">
+          <ExternalLinkIcon />
+        </a>
       </div>
     </div>
   );
