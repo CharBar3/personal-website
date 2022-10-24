@@ -36,7 +36,7 @@ const Skills = () => {
         <div>
           <DevIcon svg={<ExpressIcon />} title="Express.js" />
           <DevIcon svg={<NodeIcon />} title="Node.js" />
-          <DevIcon svg={<MongoDBIcon />} title="HTML" />
+          <DevIcon svg={<MongoDBIcon />} title="MongoDB" />
         </div>
       </div>
     </div>

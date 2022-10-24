@@ -14,6 +14,7 @@
   color: var(--body-color);
   font-weight: 400;
   font-size: 20px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -26,14 +27,17 @@
 @media only screen and (min-width: 900px) {
   .DevIcon {
     flex-direction: column;
-    align-items: center;
+  }
+
+  .DevIcon span {
+    justify-content: center;
   }
 
   .DevIcon svg {
     width: 130px;
     height: 130px;
-    margin-right: 0px;
+    margin: 10px;
   }
 }
-@media only screen and (min-width: 1200px) {
-}
+/* @media only screen and (min-width: 1200px) {
+} */

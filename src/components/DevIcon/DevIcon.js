@@ -3,7 +3,7 @@ import "./DevIcon.css";
 const DevIcon = ({ svg, title }) => {
   return (
     <div className="DevIcon">
-      <span>{svg}</span>
+      <div>{svg}</div>
       <span>{title}</span>
     </div>
   );
