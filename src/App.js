@@ -10,7 +10,7 @@ import Connect from "./components/Connect/Connect";
 function App() {
   return (
     <div className="App">
-      <MobileNav />
+      {/* <MobileNav /> */}
       <Welcome />
       <SectionHeader title="MORE ABOUT ME" />
       <Skills />
