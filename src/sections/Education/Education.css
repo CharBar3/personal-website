@@ -1,0 +1,45 @@
+.Education {
+  background-color: var(--secondary-color);
+  padding: 0px var(--section-padding);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Education h2 {
+  margin: 0px;
+  padding-top: 15px;
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+}
+
+.Education h2::after {
+  content: ".";
+  color: var(--primary-color);
+}
+
+.Education h3 {
+  color: var(--heading-color);
+}
+
+.Education div {
+  padding: 0px var(--section-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Education svg {
+  margin-left: 5px;
+  color: var(--primary-color);
+  width: 30px;
+  height: 30px;
+}
+
+.Education img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.Education p {
+  color: var(--body-color);
+}

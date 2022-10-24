@@ -1,0 +1,19 @@
+.Projects {
+  background-color: var(--secondary-color);
+  padding: 0px var(--section-padding);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Projects h2 {
+  margin: 0px;
+  padding-top: 15px;
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+}
+
+.Projects h2::after {
+  content: ".";
+  color: var(--primary-color);
+}
