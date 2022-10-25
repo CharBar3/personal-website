@@ -14,6 +14,9 @@
   background-color: var(--primary-color);
   width: 100vw;
   max-width: 1400px;
+  border-left: 1px solid var(--body-color);
+  border-right: 1px solid var(--body-color);
+  overflow-y: overlay;
 }
 
 .App h1 {
@@ -88,13 +91,5 @@
   }
   .App p {
     font-size: 20pt;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .App {
-    border-left: 1px solid var(--body-color);
-    border-right: 1px solid var(--body-color);
-    overflow-x: hidden;
   }
 }
