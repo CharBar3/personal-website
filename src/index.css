@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--secondary-color);
+  overflow-y: overlay;
 }
 
 code {
