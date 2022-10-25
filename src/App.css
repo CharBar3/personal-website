@@ -95,6 +95,6 @@
   .App {
     border-left: 1px solid var(--body-color);
     border-right: 1px solid var(--body-color);
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
 }
