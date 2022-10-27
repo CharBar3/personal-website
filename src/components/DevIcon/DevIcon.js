@@ -4,7 +4,7 @@ const DevIcon = ({ svg, title, backendIcon }) => {
   if (backendIcon) {
     return (
       <div className="DevIcon BackendIcon">
-        <div>{svg}</div>
+        <div className={title}>{svg}</div>
         <span>{title}</span>
       </div>
     );

@@ -1,7 +1,6 @@
 .Skills {
   background-color: var(--secondary-color);
   padding: 0px var(--section-padding);
-
   display: flex;
   flex-direction: column;
 }
