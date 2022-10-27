@@ -21,7 +21,11 @@ const Skills = () => {
       </div>
       <div className="Icon-Section">
         <div>
-          <DevIcon svg={<JavaScriptIcon />} title="JavaScript" />
+          <DevIcon
+            svg={<JavaScriptIcon />}
+            title="JavaScript"
+            iconFirst={true}
+          />
           <DevIcon svg={<ReactIcon />} title="React.js" />
           <DevIcon svg={<HTMLIcon />} title="HTML" />
           <DevIcon svg={<CSSIcon />} title="CSS" />
@@ -34,9 +38,13 @@ const Skills = () => {
       </div>
       <div className="Icon-Section">
         <div>
-          <DevIcon svg={<ExpressIcon />} title="Express.js" />
-          <DevIcon svg={<NodeIcon />} title="Node.js" />
-          <DevIcon svg={<MongoDBIcon />} title="MongoDB" />
+          <DevIcon
+            svg={<ExpressIcon id="Express-Icon" />}
+            title="Express.js"
+            backendIcon={true}
+          />
+          <DevIcon svg={<NodeIcon />} title="Node.js" backendIcon={true} />
+          <DevIcon svg={<MongoDBIcon />} title="MongoDB" backendIcon={true} />
         </div>
       </div>
     </div>

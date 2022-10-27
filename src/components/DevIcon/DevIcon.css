@@ -17,6 +17,11 @@
   width: 100%;
 }
 
+.BackendIcon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 @media only screen and (min-width: 600px) {
   .DevIcon svg {
     width: 60px;
