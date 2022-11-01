@@ -19,7 +19,7 @@
   color: var(--heading-color);
 }
 
-.SingleProject h3:hover::after {
+.SingleProject:hover h3::after {
   content: ".";
   color: var(--primary-color);
 }
@@ -35,6 +35,11 @@
   width: 25px;
   height: 25px;
 }
+
+.SingleProject:hover svg {
+  color: var(--primary-color);
+}
+
 .SingleProject svg:last-child {
   margin-left: 5px;
 }

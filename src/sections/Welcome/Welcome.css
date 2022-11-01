@@ -30,7 +30,7 @@
 .WelcomeButtons button {
   background: none;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: var(--button-text-size);
   display: flex;
   align-items: center;
