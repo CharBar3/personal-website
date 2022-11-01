@@ -17,7 +17,7 @@ const Projects = () => {
       />
       <SingleProject
         title="Workout Time"
-        website="hhttps://workout-time.herokuapp.com/dashboard"
+        website="https://workout-time.herokuapp.com/dashboard"
         github="https://github.com/CharBar3/workout-time"
       />
       <SingleProject
