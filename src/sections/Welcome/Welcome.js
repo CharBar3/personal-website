@@ -8,13 +8,12 @@ import Connect from "../../components/Connect/Connect";
 const Welcome = () => {
   const openCloseConnect = (status) => {
     const connect = document.getElementsByClassName("Connect");
-
-    console.log(status);
-
+    console.log();
     if (status === "open") {
       connect[0].style.width = "0px";
     } else if (status === "closed") {
       connect[0].style.width = "320px";
+      connect[0].focus();
     }
   };
 
