@@ -7,7 +7,7 @@ import { ReactComponent as EmailIcon } from "../../Icons/mail.svg";
 import { ReactComponent as PhoneIcon } from "../../Icons/phone.svg";
 import { ReactComponent as CopyIcon } from "../../Icons/copy.svg";
 
-const Connect = ({ openCloseConnect }) => {
+const Connect = ({ setConnectStatus, connectStatus }) => {
   const copyToClipboard = (e) => {
     console.log(e.currentTarget);
   };
@@ -16,7 +16,8 @@ const Connect = ({ openCloseConnect }) => {
     <div
       className="Connect"
       tabIndex="0"
-      onBlur={() => openCloseConnect("open")}
+      style={{ width: `${connectStatus}` }}
+      onBlur={() => setConnectStatus("0px")}
     >
       <div className="ConnectInnerWrapper">
         <a

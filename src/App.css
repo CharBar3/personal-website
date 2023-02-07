@@ -2,7 +2,8 @@
   --primary-color: rgb(213, 255, 64);
   --secondary-color: rgb(23, 23, 23);
   --heading-color: rgb(194, 194, 194);
-  --body-color: rgb(79, 79, 79);
+  /* --body-color: rgb(79, 79, 79); */
+  --body-color: rgb(110, 110, 110);
 
   --button-text-size: 16pt;
 

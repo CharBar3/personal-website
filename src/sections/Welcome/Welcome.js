@@ -2,24 +2,18 @@ import "./Welcome.css";
 import { ReactComponent as ArrowRightIcon } from "../../Icons/arrow-right.svg";
 import { ReactComponent as LayersIcon } from "../../Icons/layers.svg";
 import { ReactComponent as DownloadIcon } from "../../Icons/download.svg";
-
 import Connect from "../../components/Connect/Connect";
+import { useState } from "react";
 
 const Welcome = () => {
-  const openCloseConnect = (status) => {
-    const connect = document.getElementsByClassName("Connect");
-    console.log();
-    if (status === "open") {
-      connect[0].style.width = "0px";
-    } else if (status === "closed") {
-      connect[0].style.width = "320px";
-      connect[0].focus();
-    }
-  };
+  const [connectStatus, setConnectStatus] = useState();
 
   return (
     <div className="Welcome">
-      <Connect openCloseConnect={openCloseConnect} />
+      <Connect
+        setConnectStatus={setConnectStatus}
+        connectStatus={connectStatus}
+      />
       <h1>
         Charles
         <br /> Bartlett
@@ -36,7 +30,7 @@ const Welcome = () => {
         Lets talk about how I can make a difference in your workforce!
       </p>
       <div className="WelcomeButtons">
-        <button onClick={() => openCloseConnect("closed")}>
+        <button onClick={() => setConnectStatus("320px")}>
           <ArrowRightIcon />
           Lets Talk
         </button>
