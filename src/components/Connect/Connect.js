@@ -6,14 +6,26 @@ import { ReactComponent as CalendarIcon } from "../../Icons/calendar.svg";
 import { ReactComponent as EmailIcon } from "../../Icons/mail.svg";
 import { ReactComponent as PhoneIcon } from "../../Icons/phone.svg";
 import { ReactComponent as CopyIcon } from "../../Icons/copy.svg";
+import { useEffect, useRef } from "react";
 
 const Connect = ({ setConnectStatus, connectStatus }) => {
+  const connectWindowRef = useRef(null);
+
   const copyToClipboard = (e) => {
     console.log(e.currentTarget);
   };
 
+  useEffect(() => {
+    if (connectStatus !== "0px") {
+      connectWindowRef.current.focus();
+    }
+
+    return () => {};
+  }, [connectStatus]);
+
   return (
     <div
+      ref={connectWindowRef}
       className="Connect"
       tabIndex="0"
       style={{ width: `${connectStatus}` }}
