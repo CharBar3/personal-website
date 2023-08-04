@@ -35,7 +35,7 @@ const Welcome = () => {
           Lets Talk
         </button>
         <a
-          href="https://docs.google.com/document/d/1Be1ijsi-s8U6ZFeFNZ5qmY8T5pW4o3MbQVMQRCiUrfg/edit?usp=sharing"
+          href="https://docs.google.com/document/d/14A0UZiv5JOQdw3vA4kespSv_wr1VsIKi6BcKBhdXrPQ/edit?usp=sharing"
           target="_blank"
         >
           <button>
